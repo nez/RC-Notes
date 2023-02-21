@@ -4,24 +4,20 @@
 
 To verify that PyTorch can see the GPU's:
 
-```from torch import cuda
+```
+from torch import cuda
 cuda.is_available()
 ```
 
 I also used `gpustat` to see gpu usage.
 
-To install it, run
-```pip install gpustat
-```
+To install it, run `pip install gpustat`
 
-So you can call it with
-```gpustat -cp
-```
+So you can call it with `gpustat -cp`
 
 ## Nvidia drivers
-Install the drivers with
-```sudo ubuntu-drivers autoinstall
-```
+Install the drivers with `sudo ubuntu-drivers autoinstall`
+
 Then reboot and check the result in Python of `cuda.is_available()`.
 
 ## Disclaimer:
