@@ -1,2 +1,3 @@
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
+# click on Edit > NBextensions and select the extension
